@@ -3,3 +3,22 @@ body {
   width: 50%;
   height: 75%;
 }
+* {
+  box-sizing: border-box;
+}
+.calculatorGrid {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 75px);
+  grid-template-rows: repeat(5, 75px);
+  border: 5px solid black;
+}
+
+.first-Number .second-Number {
+ display: flex;
+ flex-direction: row;
+
+}
+
